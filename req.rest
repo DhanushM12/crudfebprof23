@@ -1,0 +1,10 @@
+POST http://localhost:8080/student/create
+Content-Type: application/json
+
+{
+    "name": "xyz",
+    "company": "cn"
+}
+
+###
+GET http://localhost:8080/student/list
